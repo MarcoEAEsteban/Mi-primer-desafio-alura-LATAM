@@ -8,7 +8,7 @@ var copiado = document.querySelector("#senhal")
 
 //FUNCION ENCRIPTAR
 botoncriptografar.addEventListener("click",function(){
-    const frase = textoInicial.value.toLowerCase().replace(/[,.;:?!@#$%¨&*-=_"'()<>`~{}]/gi,"");
+    const frase = textoInicial.value.toLowerCase().replace(/[,.;:?!@#$%¨&*-=_"'()<>`~{}!!!!!]/gi,"");
     const nuevoTexto = frase.replace(/e/g, "enter").replace(/i/g, "imes").replace(/a/g, "ai").replace(/o/g, "ober").replace(/u/g, "ufat")//no colocar ";"
     resultadoFinal.textContent = nuevoTexto;
     console.log("encriptar")
