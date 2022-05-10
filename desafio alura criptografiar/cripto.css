@@ -50,7 +50,6 @@ textarea::placeholder{
     padding: 40px;
     font-size: x-large;
     background-color: #BBBBBB;
-    text-align: justify;
 }
 /*interaccion con el mause*/
 .textarea1:hover{
