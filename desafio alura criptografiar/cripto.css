@@ -1,0 +1,161 @@
+/*titulo principal con sus caracteristicas*/
+.titulo{
+    background-color: #BBBBBB;
+    padding: 0 100px;
+    font-size: 80px;
+    background: linear-gradient(#000000,#BBBBBB,#000000);
+    font-family: 'Macondo', cursive;
+    text-align: center;
+    color: #d81414;
+    text-shadow: 20px 10px 9px#0a0a0a;
+}
+/*captura del titulo con el mouse*/
+.titulo:hover{
+    background: linear-gradient(#000000,rgb(112, 26, 26),#000000);
+}
+/*foto de fondo*/
+.cuerpo{
+    background-image:url("fotos/bg.jpg");
+    margin: 0;
+}
+/*cuerpo de mis formularios,tamanho y forma*/
+.formularios{
+    height: 540px;
+    display: flex;
+    flex-wrap: wrap;   
+}
+/*color y tamanho de placeholder*/
+textarea::placeholder{
+    font-size: 1.2em;
+    text-align: center;
+
+}
+/*mis dos textarea estilo y tamanho*/
+.caja,.textoSalida{
+    width: 50%;
+    font-family: 'Macondo', cursive;
+   
+}
+/*estructura del area de texto y colores*/
+.textarea1,.textarea2{
+    resize: none;
+    width: 70%;
+    max-width: 500px;
+    height: 60%;
+    display: block;
+    margin: 40px auto;
+    border: 2px solid #3d3838;
+    border-radius: 10px;
+    text-align: center;
+    padding: 40px;
+    font-size: x-large;
+    background-color: #BBBBBB;
+    text-align: justify;
+}
+/*interaccion con el mause*/
+.textarea1:hover{
+    box-shadow: 7px 7px 20px 10px #000000;
+    cursor: pointer;
+}
+/*interaccion con el mouse*/
+.textarea2:hover{
+    box-shadow: 7px 7px 20px 10px #000000;
+    cursor: pointer;
+}
+/*posicionamiento de los botones*/
+.botones,.boton{
+    display: flex;
+    justify-content: space-evenly;
+}
+/*valores de colores y tamanho*/
+.boton1,.boton2,.copy{
+    display: inline;
+    width: 170px;
+    height: 50px;
+    border: 2px solid #BBBBBB;
+    border-radius: 100px;
+    background-color: rgb(97, 89, 89);
+    font-weight: bold;
+    box-shadow: 5px 5px 15px 7px #000000;
+    background: linear-gradient(#000000,#BBBBBB,#000000);
+    font-family: 'Macondo', cursive;
+    color: #0a0678;
+    text-shadow: 4px 4px 10px#000000;
+    font-weight: bold;
+    font-size: 20px;
+}
+/*interaccion con el boton copiar*/
+.copy:hover{
+    width: 190px;
+    height: 60px;
+    background: linear-gradient(#000000,rgb(112, 26, 26),#000000);
+    cursor: pointer;
+    color: aliceblue;
+}
+/*interaccion al copiar hacer click*/
+.copy:active{
+    background-color: rgb(36, 125, 12);
+    background: linear-gradient(#000000,rgb(36, 125, 12),#000000);
+}
+/*interaccion con boton encriptar*/
+.boton1:hover{
+    width: 190px;
+    height: 60px;
+    background: linear-gradient(#000000,rgb(112, 26, 26),#000000);
+    cursor: pointer;
+    color: aliceblue;
+}
+/*interaccion con el boton encriptar al hacer click*/
+.boton1:active{
+    background: linear-gradient(#000000,rgb(36, 125, 12),#000000);
+}
+/*interacion con el boton desencriptar*/
+.boton2:hover{
+    width: 190px;
+    height: 60px;
+    background: linear-gradient(#000000,rgb(112, 26, 26),#000000);
+    cursor: pointer;
+    color: aliceblue;
+}
+/*interaccion con el boton desencriptar al hacer click*/
+.boton2:active{
+    background: linear-gradient(#000000,rgb(36, 125, 12),#000000);
+}
+/*pie de pagina estructura */
+.piePagina{
+    padding: 50px 0 5px 0;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+/*adaptando el tamanho de nuestra pagia para otros dispositivos "VIEWPORT"*/
+@media screen and (max-width:850px){
+    /*cambio de tamanho del titulo*/
+    .titulo{
+        font-size: 60px;
+    }
+    /*cambiando de display a los formularios*/
+    .formularios{
+        display: block;
+    }
+    /*cambiando el ancho y margen de las areas de texto*/
+    .caja, .textoSalida{
+        width: 70%;
+        margin: 40px auto;
+    }
+    /*cambiando de tamanho a mis botones*/
+    .boton1,.boton2{
+        font-size: 18px;
+        width: 150px;
+        margin: 2px;
+    }
+}
+
+
+
+   
+
+
+
+
+
