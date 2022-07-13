@@ -22,7 +22,8 @@
 .formularios{
     height: 540px;
     display: flex;
-    flex-wrap: wrap;   
+    flex-wrap: wrap;  
+ 
 }
 /*color y tamanho de placeholder*/
 textarea::placeholder{
